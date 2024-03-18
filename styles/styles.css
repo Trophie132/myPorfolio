@@ -99,4 +99,8 @@ p {
 
         padding: 60px 20px;
     }
+
+    body {
+        background-color: var(--branding-color);
+    }
 }
