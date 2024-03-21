@@ -29,6 +29,10 @@ h2 {
     font-size: 64px;
 }
 
+h3 {
+    font-size: 48px;
+}
+
 p {
     font-weight: normal;
     font-size: 16px;
@@ -154,4 +158,45 @@ p {
 
 .nav-item {
     padding: 0 18px;
+}
+
+footer {
+    margin: 55px 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: aliceblue;
+    background-color: var(--branding-color);
+}
+
+footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 50px;
+    border-radius: 10px;
+
+}
+
+.footer .contact-box p {
+    margin: 0;
 }
